@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="ssh://git@github.com/goomba25/"/>
+
+    <default remote="origin" 
+             revision="main"/>
+    
+    <project name="shield-optee-common"
+             path="shield-optee-common"/>
+
+    <project name="shield-optee-library"
+             path="shield-optee-library"/>
+    
+    <project name="shield-optee-daemon"
+             path="shield-optee-daemon"/>
+    
+    <project name="shield-optee-ta"
+             path="shield-optee-ta"/>
+
+    <project name="shield-optee-sdk"
+             path="shield-optee-sdk"/>
+
+</manifest>
